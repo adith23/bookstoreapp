@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.6.1
+  sdk: ^3.6.0
 
 dependencies:
   flutter:
@@ -21,3 +21,18 @@ flutter:
     - assets/images/images.jpg
     - assets/images/images1.jpg
     - assets/images/images2.jpg
+    - assets/images/images3.jpg
+    - assets/images/images4.jpg
+    - assets/images/images5.jpg
+    - assets/images/images6.jpg
+    - assets/images/images7.jpg
+    - assets/images/images8.jpg
+    - assets/images/images9.jpg
+    - assets/images/images10.jpg
+    - assets/images/images11.jpg
+    - assets/images/images12.jpg
+    - assets/images/images13.jpg
+    - assets/images/images14.jpg
+    - assets/images/images15.jpg
+    - assets/images/images16.jpg
+    - assets/images/images17.jpg

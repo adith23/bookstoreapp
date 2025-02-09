@@ -10,13 +10,13 @@ class BookList extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Padding(
-            padding: EdgeInsets.only(left: 5), // Added left padding
+            padding: EdgeInsets.only(left: 5), 
             child: Text(
               'Inkwell Books',
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
           ),
-          backgroundColor: const Color.fromARGB(255, 147, 145, 255),
+          backgroundColor: const Color(0xFF9391FF),
         ),
         backgroundColor: const Color.fromARGB(255, 236, 220, 255),
         body: SafeArea(
@@ -45,7 +45,7 @@ class BookList extends StatelessWidget {
                       Book(
                         coverImagePath: 'assets/images/images5.jpg',
                         title: 'Thinking, Fast and Slow',
-                        author: 'Daniel Kahneman ',
+                        author: 'Daniel Kahneman',
                         price: 1250,
                       ),
                       Book(
@@ -63,7 +63,7 @@ class BookList extends StatelessWidget {
                       Book(
                         coverImagePath: 'assets/images/images1.jpg',
                         title: 'The Alchemist',
-                        author: ' Paulo Coelho',
+                        author: 'Paulo Coelho',
                         price: 1800,
                       ),
                       Book(
@@ -131,8 +131,8 @@ class BookList extends StatelessWidget {
                       ),
                       Book(
                         coverImagePath: 'assets/images/images14.jpg',
-                        title: 'The Coming Wave ',
-                        author: 'Mustafa Suleyman ',
+                        title: 'The Coming Wave',
+                        author: 'Mustafa Suleyman',
                         price: 1500,
                       ),
                       Book(
